@@ -1,14 +1,135 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
-}
+[{
+   "additionalinformation":    {
+      "affectedbusinesses": ["WOOLWORTTHS_SUPERMARKETS"],
+      "withdrawbydc": false,
+      "affecteddcs": null,
+      "vendorid": "84598",
+      "additionalinformationitems": [      {
+         "unitofmeasure": "PK",
+         "recipientaffectedregions":          [
+            "AU_NS",
+            "AU_QL"
+         ],
+         "itemreference": "7f958fad-3be2-4705-b674-11d3784928eb",
+         "recipientproductid": "820587",
+         "recipientquantityaffected": "3240"
+      }]
+   },
+   "notificationsnapshot":    {
+      "isupdate": false,
+      "currentversion": "93123450100351492",
+      "parentversion": "",
+      "issueddate": "2019-02-20T06:28:00",
+      "status": "Live"
+   },
+   "basenotification":    {
+      "notificationdetails":       {
+         "recallwithdrawalclassification": "WITHDRAWAL_RETAIL",
+         "recalltype": "WITHDRAWAL_RETAIL",
+         "goodsamaritans": ["Foodbank Australia, 02 9056 7035, supplychain@foodbank.org.au "],
+         "title": "Withdrawal (Retail Level)  Food and Beverage Woolworths 750g Imported Mandarins P/P",
+         "notificationname": "Woolworths 750g Imported Mandarins P/P",
+         "gdti": "93123450100351492",
+         "producttype": "FOOD_BEVERAGE",
+         "recallreasons":          [
+            "LABELLING",
+            "LEGAL"
+         ],
+         "isregulatorrequired": false,
+         "explanationfornotification": "Bag film states \"Grown in Australia\". Bag label states \"Product of USA\". Fruit is from USA.",
+         "updatereason": null,
+         "additionalinfo": null,
+         "pressreleasedatetime": null,
+         "pressreleasetimezone": null
+      },
+      "items": [      {
+         "productsize": "750",
+         "unitofmeasure": "GR",
+         "functionalname": "Mandarin",
+         "productclass": "FRESH_WHOLE",
+         "isgstapplicable": "NO",
+         "countryoforigin": ["AU"],
+         "australianmanufacturinglocation": ["AU_NS"],
+         "styledescription": null,
+         "colordescription": null,
+         "dangeroushazardousgoods": "NOT_A_DANGEROUS_GOODS",
+         "gpcfamily": "50250000",
+         "gpcsegment": "50000000",
+         "gpcclass": "50250600",
+         "gpcbrick": "10005888",
+         "innercase": [],
+         "trackingcode": [         {
+            "type": "BEST_BEFORE",
+            "trackingcodetypeifother": null,
+            "codes": "24/02/2019; 25/02/2019; 27/02/2019",
+            "reference": "76e40ff6-d503-4c63-970f-7dbc97bb6ae2",
+            "location": "On bag label"
+         }],
+         "itemreference": "7f958fad-3be2-4705-b674-11d3784928eb",
+         "gtin": "9315144038002",
+         "alternateidentifiers": [],
+         "productname": "Mandarin 750g P/P",
+         "brand": "Woolworths",
+         "packagingmaterialandtype": "Film & Netting",
+         "additionalinfo": null,
+         "distributiondetails":          {
+            "distributionstartdate": "2019-02-15T00:00:00",
+            "distributionenddate": "2019-02-20T00:00:00",
+            "originaldistributionarea": "SELECTED_PROVINCES",
+            "distributionarealist":             [
+               "AU_NS",
+               "AU_QL"
+            ],
+            "returnlocationaddress": "Not applicable",
+            "returninstructions": "Donate to foodbank",
+            "returnauthorizationnumber": null
+         }
+      }],
+      "instructions":       {
+         "instructionsconsumers": null,
+         "specialhandlinginstructions": "Not Applicable",
+         "instructionsretail": "Remove affected stock only and donate to Foodbank",
+         "instructionswarehouse": "DC hold affected stock only and donate to Foodbank",
+         "instructionsintransitproduct": "Not Applicable",
+         "otherhandling": null,
+         "reimbursementdetails": null,
+         "proofrequiredforcredit": null,
+         "proofrequiredforcreditifother": null,
+         "returnrequestreason": null,
+         "creditclaimcontactdetails": null,
+         "additionalinformation": null
+      },
+      "issuingcompany":       {
+         "name": "Vitor Marketing",
+         "gln": "9377778103471",
+         "addressline1": "275 Robinsons Rd",
+         "addressline2": "",
+         "city": "RAVENHALL",
+         "state": "AU-VIC",
+         "country": "AU"
+      },
+      "contacts":       [
+                  {
+            "contacttypes":             [
+               "RecallCoOrdinator",
+               "Other"
+            ],
+            "contactname": "Wendy Stewart",
+            "title": "National QA Manager – Citrus & Grapes",
+            "telephone": "03 8363 9038",
+            "mobile": "0419 392 687",
+            "email": "wendy.stewart@costagroup.com.au",
+            "afterhoursnumber": "0419 392 687"
+         },
+                  {
+            "contacttypes": ["Other"],
+            "contactname": "Craig Greenhalgh",
+            "title": "Business Manager",
+            "telephone": "0427 600 118",
+            "mobile": "0427 600 118",
+            "email": "craig.greenhalgh@costagroup.com.au",
+            "afterhoursnumber": "0427 600 118"
+         }
+      ]
+   }
+}]
